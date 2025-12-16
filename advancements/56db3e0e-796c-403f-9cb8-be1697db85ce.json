@@ -8997,6 +8997,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-11-26 16:27:35 -0600",
+      "cooked_mutton": "2025-12-15 22:55:29 -0600",
       "carrot": "2025-11-26 17:24:51 -0600"
     },
     "done": false
@@ -9200,6 +9201,42 @@
   "obs:phases/dirt_5": {
     "criteria": {
       "requirement": "2025-12-04 17:19:42 -0600"
+    },
+    "done": true
+  },
+  "obs:ob/holy_cow": {
+    "criteria": {
+      "requirement": "2025-12-15 23:26:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:jellie": "2025-12-15 23:47:20 -0600"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-12-15 23:47:20 -0600"
+    },
+    "done": true
+  },
+  "obs:ob/button": {
+    "criteria": {
+      "": "2025-12-15 23:20:56 -0600"
+    },
+    "done": true
+  },
+  "obs:phases/phase_8": {
+    "criteria": {
+      "requirement": "2025-12-16 00:02:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-12-15 22:33:09 -0600"
     },
     "done": true
   },
