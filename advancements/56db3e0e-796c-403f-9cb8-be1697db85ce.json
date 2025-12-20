@@ -9204,6 +9204,18 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-12-15 22:33:09 -0600"
+    },
+    "done": true
+  },
+  "obs:ob/button": {
+    "criteria": {
+      "": "2025-12-15 23:20:56 -0600"
+    },
+    "done": true
+  },
   "obs:ob/holy_cow": {
     "criteria": {
       "requirement": "2025-12-15 23:26:18 -0600"
@@ -9222,21 +9234,27 @@
     },
     "done": true
   },
-  "obs:ob/button": {
-    "criteria": {
-      "": "2025-12-15 23:20:56 -0600"
-    },
-    "done": true
-  },
   "obs:phases/phase_8": {
     "criteria": {
       "requirement": "2025-12-16 00:02:28 -0600"
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
-      "crafting_table": "2025-12-15 22:33:09 -0600"
+      "ancient_debris": "2025-12-16 17:27:06 -0600"
+    },
+    "done": true
+  },
+  "obs:ob/void": {
+    "criteria": {
+      "requirement": "2025-12-16 18:45:18 -0600"
+    },
+    "done": true
+  },
+  "obs:phases/dirt_6": {
+    "criteria": {
+      "requirement": "2025-12-16 18:24:53 -0600"
     },
     "done": true
   },

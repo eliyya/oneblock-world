@@ -3195,9 +3195,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
+  "minecraft:story/deflect_arrow": {
     "criteria": {
-      "has_kelp": "2025-12-15 23:30:48 -0600"
+      "deflected_projectile": "2025-12-15 22:57:13 -0600"
     },
     "done": true
   },
@@ -3207,21 +3207,27 @@
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
+  "obs:ob/creeper": {
     "criteria": {
-      "deflected_projectile": "2025-12-15 22:57:13 -0600"
+      "requirement": "2025-12-15 23:29:22 -0600"
     },
     "done": true
   },
-  "minecraft:husbandry/whole_pack": {
+  "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "minecraft:rusty": "2025-12-15 23:35:48 -0600"
+      "has_gunpowder": "2025-12-15 23:29:24 -0600"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:husbandry/fishy_business": {
+  "minecraft:recipes/redstone/tnt": {
     "criteria": {
-      "cod": "2025-12-15 23:46:10 -0600"
+      "has_gunpowder": "2025-12-15 23:29:24 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-12-15 23:30:48 -0600"
     },
     "done": true
   },
@@ -3231,23 +3237,23 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
-    "criteria": {
-      "has_cod": "2025-12-15 23:46:10 -0600"
-    },
-    "done": true
-  },
-  "obs:ob/creeper": {
-    "criteria": {
-      "requirement": "2025-12-15 23:29:22 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
       "has_kelp": "2025-12-15 23:30:48 -0600"
     },
     "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-12-15 23:33:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:rusty": "2025-12-15 23:35:48 -0600"
+    },
+    "done": false
   },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
@@ -3255,7 +3261,25 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-12-15 23:46:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-12-15 23:46:10 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-12-15 23:46:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2025-12-15 23:46:10 -0600"
     },
@@ -3267,27 +3291,207 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/firework_rocket_simple": {
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
-      "has_gunpowder": "2025-12-15 23:29:24 -0600"
+      "has_planks": "2025-12-16 18:13:32 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod": {
+  "minecraft:recipes/misc/cyan_dye": {
     "criteria": {
-      "has_cod": "2025-12-15 23:46:10 -0600"
+      "has_green_dye": "2025-12-16 18:54:44 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tnt": {
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
-      "has_gunpowder": "2025-12-15 23:29:24 -0600"
+      "has_planks": "2025-12-16 18:13:32 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
     "criteria": {
-      "has_warped_fungus": "2025-12-15 23:33:00 -0600"
+      "has_ancient_debris": "2025-12-16 17:26:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-12-16 17:38:30 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-12-16 18:58:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-12-16 18:13:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-12-16 17:38:30 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-12-16 17:26:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-12-16 17:26:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-12-16 18:10:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_green_dye": "2025-12-16 18:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-12-16 18:10:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-12-16 18:13:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2025-12-16 18:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-12-16 18:10:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-12-16 18:13:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-12-16 18:10:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-12-16 18:13:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-12-16 18:10:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-12-16 18:13:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-12-16 18:13:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_green_dye": "2025-12-16 18:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-12-16 18:10:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-12-16 17:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2025-12-16 18:13:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_carpet_from_white_carpet": {
+    "criteria": {
+      "has_green_dye": "2025-12-16 18:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-12-16 18:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-12-16 17:37:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-12-16 17:37:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-12-16 18:13:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-12-16 17:38:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-12-16 18:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-12-16 18:54:44 -0600"
     },
     "done": true
   },
