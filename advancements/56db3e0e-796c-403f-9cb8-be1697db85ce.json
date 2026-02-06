@@ -8997,9 +8997,11 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2026-02-05 18:04:43 -0600",
       "bread": "2025-11-26 16:27:35 -0600",
       "rotten_flesh": "2025-12-25 17:29:07 -0600",
       "cooked_mutton": "2025-12-15 22:55:29 -0600",
+      "cooked_beef": "2026-02-05 19:18:11 -0600",
       "carrot": "2025-11-26 17:24:51 -0600"
     },
     "done": false
@@ -9148,6 +9150,7 @@
     "criteria": {
       "minecraft:cow": "2025-11-27 17:52:40 -0600",
       "minecraft:chicken": "2025-11-27 18:20:34 -0600",
+      "minecraft:pig": "2026-02-05 18:26:25 -0600",
       "minecraft:sheep": "2025-11-26 17:21:43 -0600"
     },
     "done": false
@@ -9266,12 +9269,6 @@
     },
     "done": true
   },
-  "obs:ap/root": {
-    "criteria": {
-      "requirement": "2025-12-25 17:22:06 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2025-12-25 16:16:31 -0600"
@@ -9344,15 +9341,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2025-12-25 16:16:31 -0600"
+    },
+    "done": true
+  },
+  "obs:ap/root": {
+    "criteria": {
+      "requirement": "2025-12-25 17:22:06 -0600"
+    },
+    "done": true
+  },
   "obs:phases/phase_9": {
     "criteria": {
       "requirement": "2025-12-25 17:22:06 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_carpet_from_white_carpet": {
+  "minecraft:husbandry/fishy_business": {
     "criteria": {
-      "has_white_carpet": "2025-12-25 16:16:31 -0600"
+      "pufferfish": "2026-02-05 19:21:33 -0600"
+    },
+    "done": true
+  },
+  "obs:ob/obsidian": {
+    "criteria": {
+      "requirement": "2026-02-05 18:15:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-02-05 18:15:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2026-02-05 18:18:41 -0600"
     },
     "done": true
   },
